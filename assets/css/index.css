@@ -1,0 +1,72 @@
+
+
+section {
+    padding: 2rem 0rem;
+}
+
+.container-kpi-row {
+    padding: 10px;
+    border: 1px #ccc solid;
+    border-radius: 0.375rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.kpi-row {
+    width: 250px;
+    height: 150px;
+}
+
+.container-kpi-column {
+    padding: 10px;
+    border: 1px #ccc solid;
+    border-radius: 0.375rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.kpi-column {
+    width: 200px;
+    height: 100px;
+}
+
+.mr-1{
+    margin-right: 1rem!important;
+}
+
+.spinner {
+    position: absolute;
+    height: 100vh!important;
+    width: calc(100vw - 2rem)!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.loading {
+    opacity: 0.2;
+    z-index: 0;
+    position: relative;
+}
+
+.hide-overflow {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container > div > div {
+    margin-right: 1rem;
+}
+
+.container > div > div:nth-child(1) {
+    margin-right: 1rem;
+}
